@@ -1,0 +1,192 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title "Rare N64DEV V3 - DRAM"
+Date "2021-12-30"
+Rev "v1.0"
+Comp "Jacques Gagnon <darthcloud@gmail.com>"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D9663A
+P 1350 2150
+F 0 "U?" H 1400 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 1400 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 1400 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 950 3400 50  0001 C CNN
+	1    1350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D98973
+P 2900 2150
+F 0 "U?" H 2950 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 2950 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 2950 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 2500 3400 50  0001 C CNN
+	1    2900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D995B7
+P 4450 2150
+F 0 "U?" H 4500 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 4500 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 4500 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 4050 3400 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D9AF4F
+P 6000 2150
+F 0 "U?" H 6050 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 6050 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 6050 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 5600 3400 50  0001 C CNN
+	1    6000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D9BD9B
+P 7600 2150
+F 0 "U?" H 7650 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 7650 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 7650 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 7200 3400 50  0001 C CNN
+	1    7600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61D9D297
+P 9200 2150
+F 0 "U?" H 9250 3731 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 9250 3640 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 9250 2050 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 8800 3400 50  0001 C CNN
+	1    9200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6AD
+P 2150 4400
+F 0 "U?" H 2200 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 2200 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 2200 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 1750 5650 50  0001 C CNN
+	1    2150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6B3
+P 3700 4400
+F 0 "U?" H 3750 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 3750 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 3750 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 3300 5650 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6B9
+P 5250 4400
+F 0 "U?" H 5300 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 5300 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 5300 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 4850 5650 50  0001 C CNN
+	1    5250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6BF
+P 6800 4400
+F 0 "U?" H 6850 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 6850 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 6850 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 6400 5650 50  0001 C CNN
+	1    6800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6C5
+P 8400 4400
+F 0 "U?" H 8450 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 8450 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 8450 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 8000 5650 50  0001 C CNN
+	1    8400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DAD6CB
+P 10000 4400
+F 0 "U?" H 10050 5981 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 10050 5890 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 10050 4300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 9600 5650 50  0001 C CNN
+	1    10000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DB4291
+P 1350 6650
+F 0 "U?" H 1400 8231 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 1400 8140 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 1400 6550 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 950 7900 50  0001 C CNN
+	1    1350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DB4297
+P 2900 6650
+F 0 "U?" H 2950 8231 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 2950 8140 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 2950 6550 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 2500 7900 50  0001 C CNN
+	1    2900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DB429D
+P 4450 6650
+F 0 "U?" H 4500 8231 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 4500 8140 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 4500 6550 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 4050 7900 50  0001 C CNN
+	1    4450 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:KM416V4100BS-6 U?
+U 1 1 61DB42A3
+P 6000 6650
+F 0 "U?" H 6050 8231 50  0000 C CNN
+F 1 "KM416V4100BS-6" H 6050 8140 50  0000 C CNN
+F 2 "Package_SO:TSOP-II-54_22.2x10.16mm_P0.8mm" H 6050 6550 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf" H 5600 7900 50  0001 C CNN
+	1    6000 6650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

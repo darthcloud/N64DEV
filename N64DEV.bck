@@ -1,0 +1,165 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HCT138D
+D Decoder 3 to 8 active low outputs
+K TTL DECOD DECOD8
+$ENDCMP
+#
+$CMP AP1117-15
+D 1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223
+K linear regulator ldo fixed positive obsolete
+F http://www.diodes.com/datasheets/AP1117.pdf
+$ENDCMP
+#
+$CMP BU9850_BK16D
+D N64 4Kbit / 16Kbit EEPROM
+$ENDCMP
+#
+$CMP CIC-NUS-xxxx
+D N64 CIC
+$ENDCMP
+#
+$CMP CP1_Small
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CP_Small
+D Polarized capacitor, small symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP CXO_DIP8
+D Crystal Clock Oscillator, DIP8-style metal package
+K Crystal Clock Oscillator
+F http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor, small symbol
+K capacitor cap
+F ~
+$ENDCMP
+#
+$CMP Conn_02x05_Odd_Even
+D Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x25_N64_Cartridge
+D Generic connector, double row, 02x25, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x34_SCSI-III
+D Generic connector, double row, 02x34, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP DA28F320J5-120
+D 32 Mbit Intel StrataFlash
+$ENDCMP
+#
+$CMP DB9_Female
+D 9-pin female D-SUB connector
+K connector female D-SUB
+F  ~
+$ENDCMP
+#
+$CMP D_Small
+D Diode, small symbol
+K diode
+F ~
+$ENDCMP
+#
+$CMP EPC1441
+D FPGA PROM bitstream
+$ENDCMP
+#
+$CMP EPF10K30AQC240-2
+D FPGA
+$ENDCMP
+#
+$CMP FAS236U
+D Fast Architecture SCSI Processor
+$ENDCMP
+#
+$CMP IDT7024S25PF
+D 4K x 16 DUAL-PORT STATIC RAM
+K dual-port ram
+$ENDCMP
+#
+$CMP KM416V4100BS-6
+D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 200 MHz, TSOP-II-54
+K DRAM MEMORY
+F https://www.winbond.com/resource-files/da00-w9812g6khc1.pdf
+$ENDCMP
+#
+$CMP KM681000CLG-7L
+D 128K x8 bit Low Power CMOS Static RAM
+K RAM SRAM CMOS MEMORY
+$ENDCMP
+#
+$CMP LED_Small
+D Light emitting diode, small symbol
+K LED diode light-emitting-diode
+F ~
+$ENDCMP
+#
+$CMP L_Small
+D Inductor, small symbol
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP MAX6314
+D Power supply supervisor, Manual reset, Threshold 4.63V, SOT-143
+K Supervisor Reset
+$ENDCMP
+#
+$CMP MAX770CSA
+D 5V or Adjustable Step-Up DC-DC Controllers
+$ENDCMP
+#
+$CMP MC68340PV16E
+D Integrated Processor with DMA
+$ENDCMP
+#
+$CMP ML6509CS
+D 9 Line Hot-Insertable Active SCSI Terminator
+$ENDCMP
+#
+$CMP ML6518CH
+D 18 Line Hot-Insertable Active SCSI Terminator
+$ENDCMP
+#
+$CMP QSP16J
+D Isolated resistor networks
+K r resistor
+F ~
+$ENDCMP
+#
+$CMP R_Network08_US
+D 8 resistor network, star topology, bussed resistors, small US symbol
+K R network star-topology
+F http://www.vishay.com/docs/31509/csc.pdf
+$ENDCMP
+#
+$CMP R_Small_US
+D Resistor, small US symbol
+K r resistor
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,60 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "Rare N64DEV V3 - SCSI Interface"
+Date "2021-12-30"
+Rev "v1.0"
+Comp "Jacques Gagnon <darthcloud@gmail.com>"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L N64DEV:Conn_02x34_SCSI-III J?
+U 1 1 61E1AD87
+P 10150 3400
+F 0 "J?" H 10200 5217 50  0000 C CNN
+F 1 "Conn_02x34_SCSI-III" H 10200 5126 50  0000 C CNN
+F 2 "" H 10150 3400 50  0001 C CNN
+F 3 "~" H 10150 3400 50  0001 C CNN
+	1    10150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:FAS236U U?
+U 1 1 61E1D24B
+P 5650 3700
+F 0 "U?" H 5650 6081 50  0000 C CNN
+F 1 "FAS236U" H 5650 5990 50  0000 C CNN
+F 2 "Package_QFP:PQFP-100_14x20mm_P0.65mm" H 5650 3700 50  0001 C CNN
+F 3 "" H 5650 3700 50  0001 C CNN
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:ML6509CS U?
+U 1 1 61E1E64D
+P 8150 1750
+F 0 "U?" H 8150 961 50  0000 C CNN
+F 1 "ML6509CS" H 8150 870 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 9150 2650 50  0001 C CNN
+F 3 "" H 8150 1750 50  0001 C CNN
+	1    8150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:ML6518CH U?
+U 1 1 61E1EFEF
+P 8050 4300
+F 0 "U?" H 8050 3211 50  0000 C CNN
+F 1 "ML6518CH" H 8050 3120 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 9050 5200 50  0001 C CNN
+F 3 "" H 8050 4300 50  0001 C CNN
+	1    8050 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
