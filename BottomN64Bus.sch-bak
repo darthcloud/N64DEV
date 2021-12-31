@@ -47,105 +47,13 @@ F 3 "" H 4100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 2550 6500 2550
-Wire Wire Line
-	6250 2650 6500 2650
-Wire Wire Line
-	6250 2750 6500 2750
-Wire Wire Line
-	6250 2850 6500 2850
-Wire Wire Line
-	6250 2950 6500 2950
-Wire Wire Line
-	6250 3050 6500 3050
-Wire Wire Line
-	6250 3150 6500 3150
-Wire Wire Line
-	6250 3250 6500 3250
-Wire Wire Line
-	6250 3350 6500 3350
-Wire Wire Line
-	6250 3450 6500 3450
-Wire Wire Line
-	6250 3550 6500 3550
-Wire Wire Line
-	6250 3650 6500 3650
-Wire Wire Line
 	6250 3750 6500 3750
 Wire Wire Line
 	6250 3850 6500 3850
 Wire Wire Line
-	6250 3950 6500 3950
-Wire Wire Line
-	6250 4050 6500 4050
-Wire Wire Line
-	6250 4150 6500 4150
-Wire Wire Line
-	6250 4250 6500 4250
-Wire Wire Line
-	6250 4350 6500 4350
-Wire Wire Line
-	6250 4450 6500 4450
-Wire Wire Line
-	6250 4550 6500 4550
-Wire Wire Line
-	6250 4650 6500 4650
-Wire Wire Line
-	6250 4750 6500 4750
-Wire Wire Line
-	6250 4850 6500 4850
-Wire Wire Line
-	6250 4950 6500 4950
-Wire Wire Line
-	5750 2950 5500 2950
-Wire Wire Line
-	5750 2850 5500 2850
-Wire Wire Line
-	5750 2750 5500 2750
-Wire Wire Line
-	5750 2650 5500 2650
-Wire Wire Line
-	5750 2550 5500 2550
-Wire Wire Line
-	5750 3450 5500 3450
-Wire Wire Line
-	5750 3350 5500 3350
-Wire Wire Line
-	5750 3250 5500 3250
-Wire Wire Line
-	5750 3150 5500 3150
-Wire Wire Line
-	5750 3050 5500 3050
-Wire Wire Line
-	5750 3950 5500 3950
-Wire Wire Line
 	5750 3850 5500 3850
 Wire Wire Line
 	5750 3750 5500 3750
-Wire Wire Line
-	5750 3650 5500 3650
-Wire Wire Line
-	5750 3550 5500 3550
-Wire Wire Line
-	5750 4450 5500 4450
-Wire Wire Line
-	5750 4350 5500 4350
-Wire Wire Line
-	5750 4250 5500 4250
-Wire Wire Line
-	5750 4150 5500 4150
-Wire Wire Line
-	5750 4050 5500 4050
-Wire Wire Line
-	5750 4950 5500 4950
-Wire Wire Line
-	5750 4850 5500 4850
-Wire Wire Line
-	5750 4750 5500 4750
-Wire Wire Line
-	5750 4650 5500 4650
-Wire Wire Line
-	5750 4550 5500 4550
 Wire Wire Line
 	4550 2750 4800 2750
 Wire Wire Line
@@ -160,4 +68,244 @@ Wire Wire Line
 	3350 4400 3600 4400
 Wire Wire Line
 	3300 2750 3550 2750
+$Comp
+L N64DEV:GND #PWR?
+U 1 1 62663AC3
+P 5700 5150
+F 0 "#PWR?" H 5700 4900 50  0001 C CNN
+F 1 "GND" H 5705 4977 50  0000 C CNN
+F 2 "" H 5700 5150 50  0001 C CNN
+F 3 "" H 5700 5150 50  0001 C CNN
+	1    5700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2550 6300 2550
+$Comp
+L N64DEV:GND #PWR?
+U 1 1 6266A81A
+P 6300 5150
+F 0 "#PWR?" H 6300 4900 50  0001 C CNN
+F 1 "GND" H 6305 4977 50  0000 C CNN
+F 2 "" H 6300 5150 50  0001 C CNN
+F 3 "" H 6300 5150 50  0001 C CNN
+	1    6300 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2650 6300 2650
+Wire Wire Line
+	6250 4650 6300 4650
+Wire Wire Line
+	6250 4750 6300 4750
+Wire Wire Line
+	6250 4950 6300 4950
+Wire Wire Line
+	6250 3050 6300 3050
+$Comp
+L N64DEV:+3V3 #PWR?
+U 1 1 6267DD96
+P 5600 2400
+F 0 "#PWR?" H 5600 2250 50  0001 C CNN
+F 1 "+3V3" H 5615 2573 50  0000 C CNN
+F 2 "" H 5600 2400 50  0001 C CNN
+F 3 "" H 5600 2400 50  0001 C CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3350 5600 2400
+Wire Wire Line
+	5600 3350 5750 3350
+$Comp
+L N64DEV:+3V3 #PWR?
+U 1 1 6268071B
+P 6400 2400
+F 0 "#PWR?" H 6400 2250 50  0001 C CNN
+F 1 "+3V3" H 6415 2573 50  0000 C CNN
+F 2 "" H 6400 2400 50  0001 C CNN
+F 3 "" H 6400 2400 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3350 6400 2400
+Wire Wire Line
+	6250 3350 6400 3350
+Wire Wire Line
+	5600 4150 5600 3350
+Wire Wire Line
+	5600 4150 5750 4150
+Connection ~ 5600 3350
+Wire Wire Line
+	6400 4150 6400 3350
+Wire Wire Line
+	6250 4150 6400 4150
+Connection ~ 6400 3350
+Text Label 5100 2750 0    50   ~ 0
+N64_AD15
+Text Label 5100 2850 0    50   ~ 0
+N64_AD14
+Text Label 5100 2950 0    50   ~ 0
+N64_AD13
+Text Label 5100 3150 0    50   ~ 0
+N64_AD12
+Text Label 5100 3250 0    50   ~ 0
+N64_~W~
+Text Label 5100 3450 0    50   ~ 0
+N64_~R~
+Text Label 5100 3550 0    50   ~ 0
+N64_AD11
+Text Label 5100 3650 0    50   ~ 0
+N64_AD10
+Text Label 5100 3950 0    50   ~ 0
+N64_AD9
+Text Label 5100 4050 0    50   ~ 0
+N64_AD8
+Text Label 5100 4250 0    50   ~ 0
+N64_CIC_DO
+Text Label 5100 4350 0    50   ~ 0
+N64_CIC_CLK
+Text Label 5100 4450 0    50   ~ 0
+N64_~RESET~
+Text Label 5100 4550 0    50   ~ 0
+N64_EE_DATA
+Text Label 5100 4850 0    50   ~ 0
+N64_LA_INT4
+Text Label 6900 4850 2    50   ~ 0
+N64_RA_PIF_EN
+Text Label 6900 4550 2    50   ~ 0
+N64_VC_WRESET
+Text Label 6900 4450 2    50   ~ 0
+N64_NMI
+Text Label 6900 4350 2    50   ~ 0
+N64_JTAG_CLK
+Text Label 6900 4250 2    50   ~ 0
+N64_CIC_DI
+Text Label 6900 4050 2    50   ~ 0
+N64_AD7
+Text Label 6900 3950 2    50   ~ 0
+N64_AD6
+Text Label 6900 3650 2    50   ~ 0
+N64_AD5
+Text Label 6900 3550 2    50   ~ 0
+N64_AD4
+Text Label 6900 3450 2    50   ~ 0
+N64_ALE_H
+Text Label 6900 3150 2    50   ~ 0
+N64_AD3
+Text Label 6900 3250 2    50   ~ 0
+N64_ALE_L
+Text Label 6900 2950 2    50   ~ 0
+N64_AD2
+Text Label 6900 2850 2    50   ~ 0
+N64_AD1
+Text Label 6900 2750 2    50   ~ 0
+N64_AD0
+Wire Wire Line
+	5700 2550 5700 2650
+Wire Wire Line
+	5700 2550 5750 2550
+Connection ~ 5700 2650
+Wire Wire Line
+	5700 2650 5750 2650
+Wire Wire Line
+	5700 2650 5700 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5700 3050 5750 3050
+Wire Wire Line
+	5700 3050 5700 4650
+Connection ~ 5700 4650
+Wire Wire Line
+	5700 4650 5750 4650
+Wire Wire Line
+	5700 4650 5700 4750
+Wire Wire Line
+	5700 4750 5750 4750
+Wire Wire Line
+	5700 4950 5700 5150
+Wire Wire Line
+	5700 4950 5750 4950
+Wire Wire Line
+	6300 2650 6300 2550
+Connection ~ 6300 2650
+Wire Wire Line
+	6300 2650 6300 3050
+Connection ~ 6300 3050
+Wire Wire Line
+	6300 4650 6300 4750
+Connection ~ 6300 4650
+Connection ~ 6300 4750
+Wire Wire Line
+	6300 4950 6300 5150
+Connection ~ 6300 4950
+Wire Wire Line
+	6300 4950 6300 4750
+Wire Wire Line
+	6300 4650 6300 3050
+Wire Wire Line
+	5700 4750 5700 4950
+Connection ~ 5700 4750
+Connection ~ 5700 4950
+Wire Wire Line
+	5100 2750 5750 2750
+Wire Wire Line
+	5100 2850 5750 2850
+Wire Wire Line
+	5100 2950 5750 2950
+Wire Wire Line
+	5100 3150 5750 3150
+Wire Wire Line
+	5100 3250 5750 3250
+Wire Wire Line
+	5100 3450 5750 3450
+Wire Wire Line
+	5100 3550 5750 3550
+Wire Wire Line
+	5100 3650 5750 3650
+Wire Wire Line
+	5100 3950 5750 3950
+Wire Wire Line
+	5100 4050 5750 4050
+Wire Wire Line
+	5100 4250 5750 4250
+Wire Wire Line
+	5100 4350 5750 4350
+Wire Wire Line
+	5100 4450 5750 4450
+Wire Wire Line
+	5100 4550 5750 4550
+Wire Wire Line
+	5100 4850 5750 4850
+Wire Wire Line
+	6250 4850 6900 4850
+Wire Wire Line
+	6250 4550 6900 4550
+Wire Wire Line
+	6250 4450 6900 4450
+Wire Wire Line
+	6250 4350 6900 4350
+Wire Wire Line
+	6250 4250 6900 4250
+Wire Wire Line
+	6250 4050 6900 4050
+Wire Wire Line
+	6250 3950 6900 3950
+Wire Wire Line
+	6250 3650 6900 3650
+Wire Wire Line
+	6250 3550 6900 3550
+Wire Wire Line
+	6250 3450 6900 3450
+Wire Wire Line
+	6250 3250 6900 3250
+Wire Wire Line
+	6250 3150 6900 3150
+Wire Wire Line
+	6250 2950 6900 2950
+Wire Wire Line
+	6250 2850 6900 2850
+Wire Wire Line
+	6250 2750 6900 2750
 $EndSCHEMATC
