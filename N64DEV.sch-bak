@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "Rare N64DEV V3 - Overview"
 Date "2021-12-30"
 Rev "v1.0"
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4000 1050 2500 1050
-U 61D8F000
-F0 "TopN64Bus" 50
-F1 "TopN64Bus.sch" 50
-$EndSheet
 $Sheet
 S 4000 2350 2500 850 
 U 61D8F05E
@@ -38,15 +32,27 @@ F0 "FPGA" 50
 F1 "FPGA.sch" 50
 $EndSheet
 $Sheet
-S 2700 1050 1150 5600
-U 61D8F1A6
-F0 "DRAM" 50
-F1 "DRAM.sch" 50
-$EndSheet
-$Sheet
 S 4000 5750 2500 950 
 U 61D8F286
-F0 "Sheet61D8F285" 50
+F0 "BottomN64Bus" 50
 F1 "BottomN64Bus.sch" 50
+$EndSheet
+$Sheet
+S 2600 850  1100 5650
+U 62445696
+F0 "DRAM_Back" 50
+F1 "DRAM_Back.sch" 50
+$EndSheet
+$Sheet
+S 4000 1050 2500 1050
+U 61D8F000
+F0 "TopN64Bus" 50
+F1 "TopN64Bus.sch" 50
+$EndSheet
+$Sheet
+S 2700 1050 1150 5600
+U 61D8F1A6
+F0 "DRAM_Front" 50
+F1 "DRAM_Front.sch" 50
 $EndSheet
 $EndSCHEMATC

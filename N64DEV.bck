@@ -100,6 +100,18 @@ D 4K x 16 DUAL-PORT STATIC RAM
 K dual-port ram
 $ENDCMP
 #
+$CMP Jumper_2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_3_Bridged12
+D Jumper, 3-pole, pins 1+2 closed/bridged
+K Jumper SPDT
+F ~
+$ENDCMP
+#
 $CMP KM416V4100BS-6
 D 128Mb Synchronous DRAM, 2 Mb x 16 b x 4 Banks, 200 MHz, TSOP-II-54
 K DRAM MEMORY
