@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L N64DEV:Conn_02x25_N64_Cartridge CON1
-U 1 1 61E1FE33
-P 3950 3350
-F 0 "CON1" H 4000 4767 50  0000 C CNN
-F 1 "N64_Cartridge_Slot" H 4000 4676 50  0000 C CNN
-F 2 "" H 3950 3350 50  0001 C CNN
-F 3 "~" H 3950 3350 50  0001 C CNN
-	1    3950 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L N64DEV:DB9_Female P5
 U 1 1 61E22446
 P 8800 3250
@@ -36,106 +25,6 @@ F 3 " ~" H 8800 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 2550 3500 2550
-Wire Wire Line
-	3750 2450 3500 2450
-Wire Wire Line
-	3750 2350 3500 2350
-Wire Wire Line
-	3750 2250 3500 2250
-Wire Wire Line
-	3750 2150 3500 2150
-Wire Wire Line
-	3750 3050 3500 3050
-Wire Wire Line
-	3750 2950 3500 2950
-Wire Wire Line
-	3750 2850 3500 2850
-Wire Wire Line
-	3750 2750 3500 2750
-Wire Wire Line
-	3750 2650 3500 2650
-Wire Wire Line
-	3750 3550 3500 3550
-Wire Wire Line
-	3750 3450 3500 3450
-Wire Wire Line
-	3750 3350 3500 3350
-Wire Wire Line
-	3750 3250 3500 3250
-Wire Wire Line
-	3750 3150 3500 3150
-Wire Wire Line
-	3750 4050 3500 4050
-Wire Wire Line
-	3750 3950 3500 3950
-Wire Wire Line
-	3750 3850 3500 3850
-Wire Wire Line
-	3750 3750 3500 3750
-Wire Wire Line
-	3750 3650 3500 3650
-Wire Wire Line
-	3750 4550 3500 4550
-Wire Wire Line
-	3750 4450 3500 4450
-Wire Wire Line
-	3750 4350 3500 4350
-Wire Wire Line
-	3750 4250 3500 4250
-Wire Wire Line
-	3750 4150 3500 4150
-Wire Wire Line
-	4250 4150 4500 4150
-Wire Wire Line
-	4250 4250 4500 4250
-Wire Wire Line
-	4250 4350 4500 4350
-Wire Wire Line
-	4250 4450 4500 4450
-Wire Wire Line
-	4250 4550 4500 4550
-Wire Wire Line
-	4250 3650 4500 3650
-Wire Wire Line
-	4250 3750 4500 3750
-Wire Wire Line
-	4250 3850 4500 3850
-Wire Wire Line
-	4250 3950 4500 3950
-Wire Wire Line
-	4250 4050 4500 4050
-Wire Wire Line
-	4250 3150 4500 3150
-Wire Wire Line
-	4250 3250 4500 3250
-Wire Wire Line
-	4250 3350 4500 3350
-Wire Wire Line
-	4250 3450 4500 3450
-Wire Wire Line
-	4250 3550 4500 3550
-Wire Wire Line
-	4250 2650 4500 2650
-Wire Wire Line
-	4250 2750 4500 2750
-Wire Wire Line
-	4250 2850 4500 2850
-Wire Wire Line
-	4250 2950 4500 2950
-Wire Wire Line
-	4250 3050 4500 3050
-Wire Wire Line
-	4250 2150 4500 2150
-Wire Wire Line
-	4250 2250 4500 2250
-Wire Wire Line
-	4250 2350 4500 2350
-Wire Wire Line
-	4250 2450 4500 2450
-Wire Wire Line
-	4250 2550 4500 2550
-Wire Wire Line
 	8500 3250 8250 3250
 Wire Wire Line
 	8500 3150 8250 3150
@@ -144,13 +33,319 @@ Wire Wire Line
 Wire Wire Line
 	8500 2950 8250 2950
 Wire Wire Line
-	8500 2850 8250 2850
-Wire Wire Line
-	8500 3650 8250 3650
-Wire Wire Line
 	8500 3550 8250 3550
 Wire Wire Line
 	8500 3450 8250 3450
 Wire Wire Line
 	8500 3350 8250 3350
+Text Notes 5200 4850 2    50   ~ 0
+Cartridge label facing up (unlike Partner)
+$Comp
+L N64DEV:Conn_02x25_N64_Cartridge P?
+U 1 1 628D6B53
+P 4350 3100
+AR Path="/61D8F286/628D6B53" Ref="P?"  Part="1" 
+AR Path="/61D8F000/628D6B53" Ref="CON1"  Part="1" 
+F 0 "CON1" H 4400 4517 50  0000 C CNN
+F 1 "N64_Cartridge_Slot" H 4400 4426 50  0000 C CNN
+F 2 "" H 4350 3100 50  0001 C CNN
+F 3 "~" H 4350 3100 50  0001 C CNN
+	1    4350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L N64DEV:GND #PWR?
+U 1 1 628D6B5B
+P 4100 4500
+AR Path="/61D8F286/628D6B5B" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6B5B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4100 4250 50  0001 C CNN
+F 1 "GND" H 4105 4327 50  0000 C CNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1900 4700 1900
+$Comp
+L N64DEV:GND #PWR?
+U 1 1 628D6B62
+P 4700 4500
+AR Path="/61D8F286/628D6B62" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6B62" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4700 4250 50  0001 C CNN
+F 1 "GND" H 4705 4327 50  0000 C CNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2000 4700 2000
+Wire Wire Line
+	4650 4000 4700 4000
+Wire Wire Line
+	4650 4100 4700 4100
+Wire Wire Line
+	4650 4300 4700 4300
+Wire Wire Line
+	4650 2400 4700 2400
+$Comp
+L N64DEV:+3V3 #PWR?
+U 1 1 628D6B6D
+P 4000 1750
+AR Path="/61D8F286/628D6B6D" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6B6D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4000 1600 50  0001 C CNN
+F 1 "+3V3" H 4015 1923 50  0000 C CNN
+F 2 "" H 4000 1750 50  0001 C CNN
+F 3 "" H 4000 1750 50  0001 C CNN
+	1    4000 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2700 4000 1750
+Wire Wire Line
+	4000 2700 4150 2700
+$Comp
+L N64DEV:+3V3 #PWR?
+U 1 1 628D6B75
+P 4800 1750
+AR Path="/61D8F286/628D6B75" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6B75" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4800 1600 50  0001 C CNN
+F 1 "+3V3" H 4815 1923 50  0000 C CNN
+F 2 "" H 4800 1750 50  0001 C CNN
+F 3 "" H 4800 1750 50  0001 C CNN
+	1    4800 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 2700 4800 1750
+Wire Wire Line
+	4650 2700 4800 2700
+Wire Wire Line
+	4000 3500 4000 2700
+Wire Wire Line
+	4000 3500 4150 3500
+Connection ~ 4000 2700
+Wire Wire Line
+	4800 3500 4800 2700
+Wire Wire Line
+	4650 3500 4800 3500
+Connection ~ 4800 2700
+Text Label 3000 2100 0    50   ~ 0
+N64_AD15
+Text Label 3000 2200 0    50   ~ 0
+N64_AD14
+Text Label 3000 2300 0    50   ~ 0
+N64_AD13
+Text Label 3000 2500 0    50   ~ 0
+N64_AD12
+Text Label 3000 2600 0    50   ~ 0
+N64_~W~
+Text Label 3000 2900 0    50   ~ 0
+N64_AD11
+Text Label 3000 3000 0    50   ~ 0
+N64_AD10
+Text Label 3000 3300 0    50   ~ 0
+N64_AD9
+Text Label 3000 3400 0    50   ~ 0
+N64_AD8
+Text Label 3500 3800 0    50   ~ 0
+N64_~RESET~
+Text Label 5750 3400 2    50   ~ 0
+N64_AD7
+Text Label 5750 3300 2    50   ~ 0
+N64_AD6
+Text Label 5750 3000 2    50   ~ 0
+N64_AD5
+Text Label 5750 2900 2    50   ~ 0
+N64_AD4
+Text Label 5750 2800 2    50   ~ 0
+N64_ALE_H
+Text Label 5750 2500 2    50   ~ 0
+N64_AD3
+Text Label 5750 2600 2    50   ~ 0
+N64_ALE_L
+Text Label 5750 2300 2    50   ~ 0
+N64_AD2
+Text Label 5750 2200 2    50   ~ 0
+N64_AD1
+Text Label 5750 2100 2    50   ~ 0
+N64_AD0
+Wire Wire Line
+	4100 1900 4100 2000
+Wire Wire Line
+	4100 1900 4150 1900
+Connection ~ 4100 2000
+Wire Wire Line
+	4100 2000 4150 2000
+Wire Wire Line
+	4100 2000 4100 2400
+Connection ~ 4100 2400
+Wire Wire Line
+	4100 2400 4150 2400
+Wire Wire Line
+	4100 2400 4100 4000
+Connection ~ 4100 4000
+Wire Wire Line
+	4100 4000 4150 4000
+Wire Wire Line
+	4100 4000 4100 4100
+Wire Wire Line
+	4100 4100 4150 4100
+Wire Wire Line
+	4100 4300 4100 4500
+Wire Wire Line
+	4100 4300 4150 4300
+Wire Wire Line
+	4700 2000 4700 1900
+Connection ~ 4700 2000
+Wire Wire Line
+	4700 2000 4700 2400
+Connection ~ 4700 2400
+Wire Wire Line
+	4700 4000 4700 4100
+Connection ~ 4700 4000
+Connection ~ 4700 4100
+Wire Wire Line
+	4700 4300 4700 4500
+Connection ~ 4700 4300
+Wire Wire Line
+	4700 4300 4700 4100
+Wire Wire Line
+	4700 4000 4700 2400
+Wire Wire Line
+	4100 4100 4100 4300
+Connection ~ 4100 4100
+Connection ~ 4100 4300
+Wire Wire Line
+	3500 3800 4150 3800
+$Comp
+L N64DEV:+12V #PWR?
+U 1 1 628D6BC7
+P 4900 1900
+AR Path="/61D8F286/628D6BC7" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6BC7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 1750 50  0001 C CNN
+F 1 "+12V" H 4915 2073 50  0000 C CNN
+F 2 "" H 4900 1900 50  0001 C CNN
+F 3 "" H 4900 1900 50  0001 C CNN
+	1    4900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3100 4900 3100
+$Comp
+L N64DEV:+12V #PWR?
+U 1 1 628D6BCE
+P 3900 1900
+AR Path="/61D8F286/628D6BCE" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/628D6BCE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3900 1750 50  0001 C CNN
+F 1 "+12V" H 3850 2100 50  0000 C CNN
+F 2 "" H 3900 1900 50  0001 C CNN
+F 3 "" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3100 4150 3100
+Wire Wire Line
+	4900 1900 4900 3100
+Wire Wire Line
+	3900 3100 3900 1900
+NoConn ~ 4150 2800
+Wire Wire Line
+	3000 2600 4150 2600
+Wire Wire Line
+	3000 2500 4150 2500
+Wire Wire Line
+	3000 2300 4150 2300
+Wire Wire Line
+	3000 2200 4150 2200
+Wire Wire Line
+	3000 2100 4150 2100
+Wire Wire Line
+	3000 3400 4150 3400
+Wire Wire Line
+	3000 3300 4150 3300
+Wire Wire Line
+	3000 3000 4150 3000
+Wire Wire Line
+	3000 2900 4150 2900
+NoConn ~ 4150 3600
+NoConn ~ 4150 3700
+NoConn ~ 4150 3900
+NoConn ~ 4150 4200
+NoConn ~ 4150 3200
+NoConn ~ 4650 3200
+Wire Wire Line
+	4650 2100 5750 2100
+Wire Wire Line
+	4650 2200 5750 2200
+Wire Wire Line
+	4650 2600 5750 2600
+Wire Wire Line
+	4650 2500 5750 2500
+Wire Wire Line
+	4650 2300 5750 2300
+Wire Wire Line
+	4650 2800 5750 2800
+Wire Wire Line
+	4650 2900 5750 2900
+Wire Wire Line
+	4650 3000 5750 3000
+Wire Wire Line
+	4650 3300 5750 3300
+Wire Wire Line
+	4650 3400 5750 3400
+NoConn ~ 4650 3600
+NoConn ~ 4650 3700
+NoConn ~ 4650 3800
+NoConn ~ 4650 3900
+Text Notes 5050 4950 2    50   ~ 0
+Only wired for SRAM & Flash save
+NoConn ~ 4650 4200
+NoConn ~ 7800 4400
+$Comp
+L N64DEV:GND #PWR?
+U 1 1 62926AC4
+P 8500 3850
+AR Path="/61D8F286/62926AC4" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/62926AC4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 3600 50  0001 C CNN
+F 1 "GND" H 8505 3677 50  0000 C CNN
+F 2 "" H 8500 3850 50  0001 C CNN
+F 3 "" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 3650 8500 3850
+$Comp
+L N64DEV:+3V3 #PWR?
+U 1 1 62928B9C
+P 8500 2700
+AR Path="/61D8F286/62928B9C" Ref="#PWR?"  Part="1" 
+AR Path="/61D8F000/62928B9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8500 2550 50  0001 C CNN
+F 1 "+3V3" H 8515 2873 50  0000 C CNN
+F 2 "" H 8500 2700 50  0001 C CNN
+F 3 "" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2850 8500 2700
+Text Label 8250 3050 2    50   ~ 0
+N64_CIC_DI
+Text Label 8250 2950 2    50   ~ 0
+N64_CIC_DO
+Text Label 8250 3150 2    50   ~ 0
+N64_PIF_CLK
+Text Label 8250 3250 2    50   ~ 0
+N64_~RESET~
 $EndSCHEMATC
